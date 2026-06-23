@@ -13,7 +13,7 @@
     "check:wiki-templates": "node scripts/check-wiki-templates.mjs",
     "export:wiki": "node scripts/export-wiki-page.mjs",
     "check": "astro check",
-    "build": "git fetch --unshallow && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "validate": "pnpm lint && pnpm check && pnpm build",
